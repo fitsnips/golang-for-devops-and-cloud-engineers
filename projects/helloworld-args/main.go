@@ -7,5 +7,6 @@ import (
 
 func main() {
 	args := os.Args
-	fmt.Printf("Hello, you entered the following cli args: %v\n", args[1:])
+
+	fmt.Printf("Hello world\nos.Args: %v\nArguments: %v\n", args, args[1:])
 }
